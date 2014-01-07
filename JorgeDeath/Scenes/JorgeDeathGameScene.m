@@ -14,6 +14,17 @@
 +(CCScene *)scene
 {
     CCScene *scene = [CCScene node];
+    JorgeDeathGameBackGroundLayer *backGroundLayerGame = [JorgeDeathGameBackGroundLayer node];
+    JorgeDeathGameInteractiveLayer *interactiveLayerGame = [JorgeDeathGameInteractiveLayer node];
+    
+    [scene addChild:backGroundLayerGame
+                  z:kDefaultBackgroundLayerZValue
+                tag:kDefaultBackgroundLayerTag];
+    
+    [scene addChild:interactiveLayerGame
+                  z:kDefaultInteractiveLayerZValue
+                tag:kDefaultInteractiveLayerTag];
+    
     return scene;
 }
 

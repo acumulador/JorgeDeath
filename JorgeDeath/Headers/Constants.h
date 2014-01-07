@@ -51,7 +51,7 @@
 #pragma mark -
 #pragma mark Sound Effects
 
-#define kSfxTap @"sfx_gummyClick.mp3"
+#define kSfxTap @"monster_click.mp3"
 #define kSfxBalloonPop @"sfx_balloon_pop.mp3"
 #define kSfxBalloonDeflate @"sfx_balloon_deflating.mp3"
 #define kSfxExplosion @"sfx_explosion.mp3"

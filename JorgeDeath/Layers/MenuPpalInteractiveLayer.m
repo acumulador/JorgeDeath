@@ -16,7 +16,8 @@
     self = [super init];
     if(self)
     {
-        [self setTouchEnabled:YES];
+        self.isTouchEnabled = YES;
+        //[self setTouchEnabled:YES];
         [self cargarEtiquetas];
         [self loadMenuItems];
         //[self CargarAudio];
@@ -70,7 +71,7 @@
     CCParticleSystemQuad *calavera = [CCParticleSystemQuad particleWithFile:@"JorgeDeathParticle.plist"];
     calavera.position = ccp(kScreenMiddleWidth, kScreenMiddleHeight);
     [self addChild:calavera
-                 z: kDefaultInteractiveLayerZValue+1
+                 z: kDefaultInteractiveLayerZValue+3
                 tag:kDefaultInteractiveLayerTag +1];
 }
 
@@ -87,26 +88,25 @@
     CCMenuItemLabel *menuStartGame = [CCMenuItemLabel
                                       itemWithLabel:startGameLabel
                                       block:^(id sender) {
-                                          [[GameManager sharedGameManager] playSFX:kSfxTap];
-                                          [[CCDirector sharedDirector] replaceScene:[CCTransitionFade
-                                                                                     transitionWithDuration:1.0
-                                                                                     scene:[JorgeDeathGameScene scene]]];
+                                          //[[GameManager sharedGameManager] playSFX:kSfxTap];
+                                          [[CCDirector sharedDirector] replaceScene:[CCTransitionFade                                                                                transitionWithDuration:1.0                                                                                                                                                                                scene:[JorgeDeathGameScene scene]]];
                                       }];
     
     CCMenuItemLabel *menuOptions = [CCMenuItemLabel
                                     itemWithLabel:optionsGameLabel
                                     block:^(id sender) {
-                                        [[GameManager sharedGameManager] playSFX:kSfxTap];
+                                        //[[GameManager sharedGameManager] playSFX:kSfxTap];
                                     }];
     
     CCMenu *mainMenu = [CCMenu menuWithItems:menuStartGame, menuOptions, nil];
 	[mainMenu alignItemsVertically];
     
+    mainMenu.position = ccp(kScreenMiddleWidth, kScreenMiddleHeight-40);
+    
 	// add the menu to your scene
 	[self addChild:mainMenu
-                 z:kDefaultInteractiveLayerZValue + 2
+                 z:kDefaultInteractiveLayerZValue + 4
                tag:kDefaultInteractiveLayerTag + 20];
-    
 }
 
 @end

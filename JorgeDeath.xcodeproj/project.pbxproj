@@ -147,6 +147,12 @@
 		7546032D187AE83A008AFE7C /* MenuPpalBackGroundLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7546032C187AE83A008AFE7C /* MenuPpalBackGroundLayer.m */; };
 		75460330187AE864008AFE7C /* MenuPpalInteractiveLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7546032F187AE864008AFE7C /* MenuPpalInteractiveLayer.m */; };
 		75460334187AE8FB008AFE7C /* CCNode+touched.m in Sources */ = {isa = PBXBuildFile; fileRef = 75460332187AE8FB008AFE7C /* CCNode+touched.m */; };
+		7563FEC3187C611D00EE37D3 /* monster_click.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7563FEC2187C611D00EE37D3 /* monster_click.mp3 */; };
+		7563FEC9187C7BB300EE37D3 /* JorgeDeathGameBackGroundLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7563FEC8187C7BB300EE37D3 /* JorgeDeathGameBackGroundLayer.m */; };
+		7563FECC187C7BCB00EE37D3 /* JorgeDeathGameInteractiveLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7563FECB187C7BCB00EE37D3 /* JorgeDeathGameInteractiveLayer.m */; };
+		7563FECE187C816C00EE37D3 /* JorgeDeathBackgroundGame.png in Resources */ = {isa = PBXBuildFile; fileRef = 7563FECD187C816C00EE37D3 /* JorgeDeathBackgroundGame.png */; };
+		7563FED1187C846000EE37D3 /* JorgeDeathBackgroundGame-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 7563FECF187C846000EE37D3 /* JorgeDeathBackgroundGame-hd.png */; };
+		7563FED2187C846000EE37D3 /* JorgeDeathBackgroundGamePeq.png in Resources */ = {isa = PBXBuildFile; fileRef = 7563FED0187C846000EE37D3 /* JorgeDeathBackgroundGamePeq.png */; };
 		75C14D4A187B195A00FE2AD8 /* GameManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 75C14D49187B195A00FE2AD8 /* GameManager.m */; };
 		75C14D4C187B229100FE2AD8 /* JorgeDeathParticle.plist in Resources */ = {isa = PBXBuildFile; fileRef = 75C14D4B187B229100FE2AD8 /* JorgeDeathParticle.plist */; };
 		75C14D4F187B22FB00FE2AD8 /* BMF.fnt in Resources */ = {isa = PBXBuildFile; fileRef = 75C14D4D187B22FB00FE2AD8 /* BMF.fnt */; };
@@ -448,6 +454,14 @@
 		75460332187AE8FB008AFE7C /* CCNode+touched.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CCNode+touched.m"; sourceTree = "<group>"; };
 		75460333187AE8FB008AFE7C /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		7563FEC1187C386A00EE37D3 /* dirt2death.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = dirt2death.ttf; sourceTree = "<group>"; };
+		7563FEC2187C611D00EE37D3 /* monster_click.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = monster_click.mp3; sourceTree = "<group>"; };
+		7563FEC7187C7BB300EE37D3 /* JorgeDeathGameBackGroundLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JorgeDeathGameBackGroundLayer.h; sourceTree = "<group>"; };
+		7563FEC8187C7BB300EE37D3 /* JorgeDeathGameBackGroundLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JorgeDeathGameBackGroundLayer.m; sourceTree = "<group>"; };
+		7563FECA187C7BCB00EE37D3 /* JorgeDeathGameInteractiveLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JorgeDeathGameInteractiveLayer.h; sourceTree = "<group>"; };
+		7563FECB187C7BCB00EE37D3 /* JorgeDeathGameInteractiveLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JorgeDeathGameInteractiveLayer.m; sourceTree = "<group>"; };
+		7563FECD187C816C00EE37D3 /* JorgeDeathBackgroundGame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JorgeDeathBackgroundGame.png; sourceTree = "<group>"; };
+		7563FECF187C846000EE37D3 /* JorgeDeathBackgroundGame-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "JorgeDeathBackgroundGame-hd.png"; sourceTree = "<group>"; };
+		7563FED0187C846000EE37D3 /* JorgeDeathBackgroundGamePeq.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JorgeDeathBackgroundGamePeq.png; sourceTree = "<group>"; };
 		75C14D48187B195A00FE2AD8 /* GameManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameManager.h; sourceTree = "<group>"; };
 		75C14D49187B195A00FE2AD8 /* GameManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameManager.m; sourceTree = "<group>"; };
 		75C14D4B187B229100FE2AD8 /* JorgeDeathParticle.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = JorgeDeathParticle.plist; sourceTree = "<group>"; };
@@ -942,6 +956,9 @@
 		7546030E187AE5FB008AFE7C /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				7563FECF187C846000EE37D3 /* JorgeDeathBackgroundGame-hd.png */,
+				7563FED0187C846000EE37D3 /* JorgeDeathBackgroundGamePeq.png */,
+				7563FECD187C816C00EE37D3 /* JorgeDeathBackgroundGame.png */,
 				7546031F187AE723008AFE7C /* JorgeDeathBackground-568h@2x.png */,
 				75460320187AE723008AFE7C /* JorgeDeathBackground-hd.png */,
 				75460321187AE723008AFE7C /* JorgeDeathBackground.png */,
@@ -971,6 +988,7 @@
 		75460311187AE5FB008AFE7C /* SFX */ = {
 			isa = PBXGroup;
 			children = (
+				7563FEC2187C611D00EE37D3 /* monster_click.mp3 */,
 			);
 			name = SFX;
 			path = Resources/SFX;
@@ -1004,6 +1022,10 @@
 				7546032C187AE83A008AFE7C /* MenuPpalBackGroundLayer.m */,
 				7546032E187AE864008AFE7C /* MenuPpalInteractiveLayer.h */,
 				7546032F187AE864008AFE7C /* MenuPpalInteractiveLayer.m */,
+				7563FEC7187C7BB300EE37D3 /* JorgeDeathGameBackGroundLayer.h */,
+				7563FEC8187C7BB300EE37D3 /* JorgeDeathGameBackGroundLayer.m */,
+				7563FECA187C7BCB00EE37D3 /* JorgeDeathGameInteractiveLayer.h */,
+				7563FECB187C7BCB00EE37D3 /* JorgeDeathGameInteractiveLayer.m */,
 			);
 			path = Layers;
 			sourceTree = "<group>";
@@ -1108,13 +1130,17 @@
 				7546017B187AE345008AFE7C /* Icon-Small.png in Resources */,
 				75460177187AE345008AFE7C /* Icon-72.png in Resources */,
 				75460179187AE345008AFE7C /* Icon-Small-50.png in Resources */,
+				7563FED1187C846000EE37D3 /* JorgeDeathBackgroundGame-hd.png in Resources */,
+				7563FEC3187C611D00EE37D3 /* monster_click.mp3 in Resources */,
 				75460322187AE723008AFE7C /* JorgeDeathBackground-568h@2x.png in Resources */,
 				75460184187AE345008AFE7C /* iTunesArtwork in Resources */,
 				7546017D187AE345008AFE7C /* Icon-Small@2x.png in Resources */,
 				7546031C187AE682008AFE7C /* Default-568h@2x.png in Resources */,
 				7546031D187AE682008AFE7C /* Default.png in Resources */,
 				7546031E187AE682008AFE7C /* Default@2x.png in Resources */,
+				7563FECE187C816C00EE37D3 /* JorgeDeathBackgroundGame.png in Resources */,
 				75460181187AE345008AFE7C /* Icon@2x.png in Resources */,
+				7563FED2187C846000EE37D3 /* JorgeDeathBackgroundGamePeq.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1185,6 +1211,7 @@
 				754602C1187AE347008AFE7C /* CocosDenshion.m in Sources */,
 				75460246187AE346008AFE7C /* CCTextureCache.m in Sources */,
 				754602E9187AE347008AFE7C /* neon_matrix_impl.c in Sources */,
+				7563FEC9187C7BB300EE37D3 /* JorgeDeathGameBackGroundLayer.m in Sources */,
 				75460219187AE346008AFE7C /* CCScene.m in Sources */,
 				75460198187AE345008AFE7C /* CCActionGrid3D.m in Sources */,
 				754602E1187AE347008AFE7C /* mat4stack.c in Sources */,
@@ -1214,6 +1241,7 @@
 				75460240187AE346008AFE7C /* CCTexture2D.m in Sources */,
 				75460255187AE346008AFE7C /* CCTMXTiledMap.m in Sources */,
 				75460216187AE346008AFE7C /* CCRenderTexture.m in Sources */,
+				7563FECC187C7BCB00EE37D3 /* JorgeDeathGameInteractiveLayer.m in Sources */,
 				7546019E187AE345008AFE7C /* CCActionInterval.m in Sources */,
 				7546020C187AE346008AFE7C /* CCPhysicsDebugNode.m in Sources */,
 				75460192187AE345008AFE7C /* CCActionEase.m in Sources */,
