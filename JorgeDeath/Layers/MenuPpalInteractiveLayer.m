@@ -16,8 +16,8 @@
     self = [super init];
     if(self)
     {
-        self.isTouchEnabled = YES;
-        //[self setTouchEnabled:YES];
+        //self.isTouchEnabled = YES;
+        [self setTouchEnabled:YES];
         [self cargarEtiquetas];
         [self loadMenuItems];
         //[self CargarAudio];

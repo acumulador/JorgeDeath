@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		750C7FD7187DAB1A00A049C6 /* ModalAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 750C7FD6187DAB1A00A049C6 /* ModalAlert.m */; };
+		750C7FDA187DC20C00A049C6 /* imagesListas.plist in Resources */ = {isa = PBXBuildFile; fileRef = 750C7FD8187DC20C00A049C6 /* imagesListas.plist */; };
+		750C7FDB187DC20C00A049C6 /* imagesListas.png in Resources */ = {isa = PBXBuildFile; fileRef = 750C7FD9187DC20C00A049C6 /* imagesListas.png */; };
+		750C7FE2187DF91500A049C6 /* dialogBox-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 750C7FDC187DF91500A049C6 /* dialogBox-hd.png */; };
+		750C7FE3187DF91500A049C6 /* dialogBox-ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 750C7FDD187DF91500A049C6 /* dialogBox-ipad.png */; };
+		750C7FE4187DF91500A049C6 /* dialogBox.png in Resources */ = {isa = PBXBuildFile; fileRef = 750C7FDE187DF91500A049C6 /* dialogBox.png */; };
+		750C7FE5187DF91500A049C6 /* dialogButton-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 750C7FDF187DF91500A049C6 /* dialogButton-hd.png */; };
+		750C7FE6187DF91500A049C6 /* dialogButton-ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 750C7FE0187DF91500A049C6 /* dialogButton-ipad.png */; };
+		750C7FE7187DF91500A049C6 /* dialogButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 750C7FE1187DF91500A049C6 /* dialogButton.png */; };
 		75460159187AE345008AFE7C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75460158187AE345008AFE7C /* QuartzCore.framework */; };
 		7546015B187AE345008AFE7C /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7546015A187AE345008AFE7C /* OpenGLES.framework */; };
 		7546015D187AE345008AFE7C /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7546015C187AE345008AFE7C /* OpenAL.framework */; };
@@ -161,6 +170,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		750C7FD5187DAB1A00A049C6 /* ModalAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalAlert.h; sourceTree = "<group>"; };
+		750C7FD6187DAB1A00A049C6 /* ModalAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModalAlert.m; sourceTree = "<group>"; };
+		750C7FD8187DC20C00A049C6 /* imagesListas.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = imagesListas.plist; sourceTree = "<group>"; };
+		750C7FD9187DC20C00A049C6 /* imagesListas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imagesListas.png; sourceTree = "<group>"; };
+		750C7FDC187DF91500A049C6 /* dialogBox-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dialogBox-hd.png"; sourceTree = "<group>"; };
+		750C7FDD187DF91500A049C6 /* dialogBox-ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dialogBox-ipad.png"; sourceTree = "<group>"; };
+		750C7FDE187DF91500A049C6 /* dialogBox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dialogBox.png; sourceTree = "<group>"; };
+		750C7FDF187DF91500A049C6 /* dialogButton-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dialogButton-hd.png"; sourceTree = "<group>"; };
+		750C7FE0187DF91500A049C6 /* dialogButton-ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dialogButton-ipad.png"; sourceTree = "<group>"; };
+		750C7FE1187DF91500A049C6 /* dialogButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dialogButton.png; sourceTree = "<group>"; };
+		750C7FE8187E001300A049C6 /* Chewy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Chewy.ttf; path = ../Chewy.ttf; sourceTree = "<group>"; };
 		75460155187AE345008AFE7C /* JorgeDeath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JorgeDeath.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75460158187AE345008AFE7C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		7546015A187AE345008AFE7C /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -453,7 +473,7 @@
 		75460331187AE8FB008AFE7C /* CCNode+touched.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CCNode+touched.h"; sourceTree = "<group>"; };
 		75460332187AE8FB008AFE7C /* CCNode+touched.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CCNode+touched.m"; sourceTree = "<group>"; };
 		75460333187AE8FB008AFE7C /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
-		7563FEC1187C386A00EE37D3 /* dirt2death.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = dirt2death.ttf; sourceTree = "<group>"; };
+		7563FEC1187C386A00EE37D3 /* death.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = death.ttf; sourceTree = "<group>"; };
 		7563FEC2187C611D00EE37D3 /* monster_click.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = monster_click.mp3; sourceTree = "<group>"; };
 		7563FEC7187C7BB300EE37D3 /* JorgeDeathGameBackGroundLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JorgeDeathGameBackGroundLayer.h; sourceTree = "<group>"; };
 		7563FEC8187C7BB300EE37D3 /* JorgeDeathGameBackGroundLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JorgeDeathGameBackGroundLayer.m; sourceTree = "<group>"; };
@@ -939,7 +959,8 @@
 		7546030C187AE5FB008AFE7C /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				7563FEC1187C386A00EE37D3 /* dirt2death.ttf */,
+				750C7FE8187E001300A049C6 /* Chewy.ttf */,
+				7563FEC1187C386A00EE37D3 /* death.ttf */,
 			);
 			name = Fonts;
 			path = Resources/Fonts;
@@ -956,6 +977,14 @@
 		7546030E187AE5FB008AFE7C /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				750C7FDC187DF91500A049C6 /* dialogBox-hd.png */,
+				750C7FDD187DF91500A049C6 /* dialogBox-ipad.png */,
+				750C7FDE187DF91500A049C6 /* dialogBox.png */,
+				750C7FDF187DF91500A049C6 /* dialogButton-hd.png */,
+				750C7FE0187DF91500A049C6 /* dialogButton-ipad.png */,
+				750C7FE1187DF91500A049C6 /* dialogButton.png */,
+				750C7FD8187DC20C00A049C6 /* imagesListas.plist */,
+				750C7FD9187DC20C00A049C6 /* imagesListas.png */,
 				7563FECF187C846000EE37D3 /* JorgeDeathBackgroundGame-hd.png */,
 				7563FED0187C846000EE37D3 /* JorgeDeathBackgroundGamePeq.png */,
 				7563FECD187C816C00EE37D3 /* JorgeDeathBackgroundGame.png */,
@@ -1053,6 +1082,8 @@
 		75460317187AE60D008AFE7C /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				750C7FD5187DAB1A00A049C6 /* ModalAlert.h */,
+				750C7FD6187DAB1A00A049C6 /* ModalAlert.m */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -1121,6 +1152,7 @@
 			files = (
 				7546017F187AE345008AFE7C /* Icon.png in Resources */,
 				75C14D50187B22FB00FE2AD8 /* BMF.png in Resources */,
+				750C7FE6187DF91500A049C6 /* dialogButton-ipad.png in Resources */,
 				754602DD187AE347008AFE7C /* ChangeLog in Resources */,
 				75C14D4F187B22FB00FE2AD8 /* BMF.fnt in Resources */,
 				75460323187AE723008AFE7C /* JorgeDeathBackground-hd.png in Resources */,
@@ -1128,7 +1160,10 @@
 				75460324187AE723008AFE7C /* JorgeDeathBackground.png in Resources */,
 				75C14D52187B3CD500FE2AD8 /* fondoMusica1.mp3 in Resources */,
 				7546017B187AE345008AFE7C /* Icon-Small.png in Resources */,
+				750C7FDB187DC20C00A049C6 /* imagesListas.png in Resources */,
+				750C7FE7187DF91500A049C6 /* dialogButton.png in Resources */,
 				75460177187AE345008AFE7C /* Icon-72.png in Resources */,
+				750C7FE5187DF91500A049C6 /* dialogButton-hd.png in Resources */,
 				75460179187AE345008AFE7C /* Icon-Small-50.png in Resources */,
 				7563FED1187C846000EE37D3 /* JorgeDeathBackgroundGame-hd.png in Resources */,
 				7563FEC3187C611D00EE37D3 /* monster_click.mp3 in Resources */,
@@ -1136,11 +1171,15 @@
 				75460184187AE345008AFE7C /* iTunesArtwork in Resources */,
 				7546017D187AE345008AFE7C /* Icon-Small@2x.png in Resources */,
 				7546031C187AE682008AFE7C /* Default-568h@2x.png in Resources */,
+				750C7FE4187DF91500A049C6 /* dialogBox.png in Resources */,
 				7546031D187AE682008AFE7C /* Default.png in Resources */,
 				7546031E187AE682008AFE7C /* Default@2x.png in Resources */,
+				750C7FDA187DC20C00A049C6 /* imagesListas.plist in Resources */,
 				7563FECE187C816C00EE37D3 /* JorgeDeathBackgroundGame.png in Resources */,
 				75460181187AE345008AFE7C /* Icon@2x.png in Resources */,
+				750C7FE2187DF91500A049C6 /* dialogBox-hd.png in Resources */,
 				7563FED2187C846000EE37D3 /* JorgeDeathBackgroundGamePeq.png in Resources */,
+				750C7FE3187DF91500A049C6 /* dialogBox-ipad.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1219,6 +1258,7 @@
 				754601C6187AE345008AFE7C /* CCDirector.m in Sources */,
 				754601B6187AE345008AFE7C /* CCAtlasNode.m in Sources */,
 				754602FC187AE347008AFE7C /* main.m in Sources */,
+				750C7FD7187DAB1A00A049C6 /* ModalAlert.m in Sources */,
 				7546032D187AE83A008AFE7C /* MenuPpalBackGroundLayer.m in Sources */,
 				7546027A187AE346008AFE7C /* CCTouchHandler.m in Sources */,
 				754601F4187AE346008AFE7C /* CCMotionStreak.m in Sources */,
