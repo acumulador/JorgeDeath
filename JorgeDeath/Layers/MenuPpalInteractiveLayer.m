@@ -63,7 +63,8 @@
 
 -(void)CargarAudio
 {
-    [[GameManager sharedGameManager] playBackgroundMusic:kBackgroundTrack1                                        loop:YES];
+    //[[GameManager sharedGameManager] playBackgroundMusic:kBackgroundTrack1                                        loop:YES];
+    
 }
 
 -(void)AgregarParticulasBackGround

@@ -15,8 +15,10 @@
 #import "CCNode+touched.h"
 #import "ModalAlert.h"
 
-#define mkPos1x 85
-#define mkPos1y 210
+//David
+#define mkPos1x 160
+#define mkPos1y 227
+
 #define mkPos2x 500
 #define mkPos2y 221
 #define mkPos3x 155
@@ -30,6 +32,7 @@
 
 #define mkBaseTagPersonajes 100
 #define mkTiempoJuego 30
+#define mkPuntosGame 0
 
 #define mkScoreLabelTag 30
 #define mkTimeLabelTag 31

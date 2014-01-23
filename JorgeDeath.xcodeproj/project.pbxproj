@@ -180,7 +180,7 @@
 		750C7FDF187DF91500A049C6 /* dialogButton-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dialogButton-hd.png"; sourceTree = "<group>"; };
 		750C7FE0187DF91500A049C6 /* dialogButton-ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dialogButton-ipad.png"; sourceTree = "<group>"; };
 		750C7FE1187DF91500A049C6 /* dialogButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dialogButton.png; sourceTree = "<group>"; };
-		750C7FE8187E001300A049C6 /* Chewy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Chewy.ttf; path = ../Chewy.ttf; sourceTree = "<group>"; };
+		750C7FE9187E133E00A049C6 /* Chewy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Chewy.ttf; sourceTree = "<group>"; };
 		75460155187AE345008AFE7C /* JorgeDeath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JorgeDeath.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75460158187AE345008AFE7C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		7546015A187AE345008AFE7C /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -959,7 +959,7 @@
 		7546030C187AE5FB008AFE7C /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				750C7FE8187E001300A049C6 /* Chewy.ttf */,
+				750C7FE9187E133E00A049C6 /* Chewy.ttf */,
 				7563FEC1187C386A00EE37D3 /* death.ttf */,
 			);
 			name = Fonts;
